@@ -58,7 +58,7 @@ public class Affine {
 				System.out.print(letter);
 					}
 		
-		// ** how to display properly?
+		
 		
 		}
 		
