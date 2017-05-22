@@ -108,7 +108,7 @@ public class Blackout {
 				System.out.println("Operation Result: " + result);
 				expressionNumbers[operatorsFoundCounter] = Integer.toString(result);
 				// add the result of this operation to the running total
-				total += result;
+				total = result;
 			}
 		}
 
