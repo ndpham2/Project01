@@ -107,8 +107,8 @@ public class Blackout {
 	private static boolean parseExpression(String equation) {
 		String[] expression = equation.split("=");
 
-		int answer1 = evaluate(expression[0]);
-		int answer2 = evaluate(expression[1]);
+		double answer1 = evaluate(expression[0]);
+		double answer2 = evaluate(expression[1]);
 
 		if (answer1 == answer2) {
 			return true;
